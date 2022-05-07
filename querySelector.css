@@ -1,0 +1,34 @@
+@media screen and (max-width: 893px){
+
+    .containerHome {
+        display: block;
+        text-align: center;
+}
+
+.containerSobreMim {
+    display: block;
+    text-align: center;
+    margin-bottom: 400px;
+}
+
+.sobre {
+    padding: 10px;
+    text-align: center;
+}
+
+.sobre p {
+    text-align: justify;
+    padding: 0 5% 3%;
+    
+}
+
+.containerHabilidades {
+    display: block;
+    justify-content: center;
+}
+
+.containerMaster {
+    justify-content: center;
+}
+
+}

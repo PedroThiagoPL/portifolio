@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pedro Thiago</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="querySelector.css">
 </head>
 <body>
-    <div class="container">
+    <div class="containerMenu">
         <div class="logo">
             <header>
                 Portifólio      
@@ -17,16 +18,18 @@
 
         <div class="menu">
             <nav>
-                <a href="">Home</a>
-                <a href="">Sobre</a>
-                <a href="">Habilidades</a>
-                <a href="">Projetos</a>
+                <ul>
+                <li><a id="itensMenu" href="#home">Home</a></li>
+                <li><a id="itensMenu" href="#sobre">Sobre</a></li>
+                <li><a id="itensMenu"href="#habilidades">Habilidades</a></li>
+                <li><a id="itensMenu" href="#projetos">Projetos</a></li>
+                </ul>
             </nav>
         </div>
     </div>
 
     <main>
-        <section class="containerHome">
+        <section id="home" class="containerHome">
             <div class="texto">
                 <p>Olá, eu sou</p>
                 <h1>Pedro Thiago</h1>
@@ -50,7 +53,7 @@
             </div>
         </section>
 
-        <section class="containerSobreMim">
+        <section id="sobre" class="containerSobreMim">
             <div class="fotoPedro">
                 <img src="imagem/pedroThiago.jpeg" alt="Foto de Perfil">        
             </div>
@@ -77,7 +80,7 @@
 
         </section>
 
-        <section class="containerHabilidades">
+        <section id="habilidades" class="containerHabilidades">
             <h1>Habilidades</h1>
 
             <div class="containerMaster">
@@ -113,7 +116,7 @@
             </div>
         </section>
 
-        <section class="containerProjetos">
+        <section id="projetos" class="containerProjetos">
             <h1>Projetos</h1>
 
             <div class="projetos">                      
