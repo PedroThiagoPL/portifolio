@@ -1,6 +1,44 @@
 @media screen and (max-width: 893px){
+    
+.body {
+    overflow-x: hidden;
+}    
 
-    .containerHome {
+.menuLine {
+    display: block;
+    cursor: pointer;
+    color: white;
+    background-color: white;
+}
+
+.menuLine div {
+    
+    width: 32px;
+    height: 2px;
+    margin: 8px;
+}
+
+.menu ul {
+    position: absolute;
+    top: 8vh;
+    right: 0;
+    width: 50vw;
+    height: 92vh;
+    flex-direction: column;
+    align-items: center;
+    transform: translateX(100%);
+}
+
+.menu li {
+    opacity: 0;
+}
+
+.redesSociais {
+        justify-content: center;  
+        
+    }
+
+.containerHome {
         display: block;
         text-align: center;
 }
