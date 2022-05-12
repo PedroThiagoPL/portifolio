@@ -2,41 +2,48 @@
     
 .body {
     overflow-x: hidden;
-}    
+} 
 
-.menuLine {
+.menu-icon {
+    margin-left: 460%;
+}
+
+.menu-icon img {
     display: block;
     cursor: pointer;
-    color: white;
     background-color: white;
-}
-
-.menuLine div {
+    z-index: 10;
     
-    width: 32px;
-    height: 2px;
-    margin: 8px;
 }
 
-.menu ul {
-    position: absolute;
-    top: 8vh;
+.navList {
+    position: fixed;
+    top: 10%;
     right: 0;
-    width: 50vw;
-    height: 92vh;
-    flex-direction: column;
+    width: 18%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    transform: translateX(100%);
+    flex-direction: column;
+    transform: translateX(100%); 
+    transition: transform 0.6s ease-in;
+    font-weight: bold;
+    font-size: 1.2em;
+    
 }
 
-.menu li {
-    opacity: 0;
+.navList.open {
+    transform: translateX(0);
+}
+
+.navList li {
+    margin: 10px 0;
 }
 
 .redesSociais {
-        justify-content: center;  
-        
-    }
+    justify-content: center;          
+}
 
 .containerHome {
         display: block;

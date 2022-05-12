@@ -1,0 +1,6 @@
+var menu = document.querySelector('.navList');
+var menuIcon = document.querySelector('.menu-icon');
+
+function abrirMenu() {
+    menu.classList.toggle ('open')
+}
