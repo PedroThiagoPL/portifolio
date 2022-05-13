@@ -14,6 +14,7 @@ html {
     width: 100%;
     display: flex;
     position: fixed;
+    z-index: 999;  
 }
 
 .logo {
@@ -21,17 +22,16 @@ html {
     flex: 30%;
     justify-content: center;
     color: #05d4df;
-    padding: 3%;
+    padding: 20px;
     font-family: 'Inter', sans-serif;
     font-size: 25px;    
-    font-weight: bold;
-    
+    font-weight: bold;   
 }
 
 .menu {
     display: flex;
     flex: 70%;
-    padding: 2%;
+    padding: 20px;
     font-family: 'Inter', sans-serif;
     font-size: 18px;
     justify-content: center;
@@ -50,8 +50,7 @@ html {
 .menu nav ul {
     list-style: none;
     display: flex;
-    gap: 2rem; /*espaçamento entre as palavras*/
-    
+    gap: 2rem; /*espaçamento entre as palavras*/  
 }
 
 .menu nav a {
@@ -60,7 +59,7 @@ html {
 }
 
 .navList {
-    margin-top: 13px;
+    margin-top: 5px;
     margin-left: 150px;
     font-weight: bold;
 }
@@ -133,8 +132,7 @@ html {
 .containerSobreMim {
     display: flex;
     width: 100%;
-    height: 500px;
-    
+    height: 500px;   
 }
 
 .fotoPedro {
@@ -154,8 +152,7 @@ html {
     font-family: 'Inter', sans-serif;
     text-align: justify; 
     padding: 100px;
-    color: white;
-       
+    color: white;     
 }
 
 .sobre h1 {
@@ -188,7 +185,7 @@ html {
     width: 15px;
 }
 
-.email {
+.whatsapp {
     margin-left: 5%;
     color: white;
     border: 3px solid #d24074;
@@ -199,7 +196,7 @@ html {
     margin-top: 5px;
 }
 
-.email img {
+.whatsapp img {
     width: 15px;
 }
 
@@ -219,8 +216,8 @@ html {
 
 .containerMaster {
     display: flex;
-    
-    
+    justify-content: space-around;
+    flex-wrap: wrap;  
 }
 
 .habilidades {
@@ -236,7 +233,7 @@ html {
     border: 3px solid transparent;
     border-image: linear-gradient(to left, #d24074, #6518b4);
     border-image-slice: 1;
-    }
+}
 
 .habilidades h1 {
     font-size: 24px;
@@ -267,7 +264,7 @@ html {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    font-size: 1.0em;  
+    font-size: 1.0em;     
 }
 
 .areaProjetos{

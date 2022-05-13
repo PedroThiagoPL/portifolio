@@ -1,23 +1,12 @@
 @media screen and (min-width: 895px){
 .menu-icon {
-    display: none;
-       
+    display: none;      
 }
    
 .menu-icon img {
     display: hidden;
 }
-
-
- .containerHabilidades {
-    align-items: center;
-    justify-content: center;
-}  
-
-
 }
-
-
 
 @media screen and (max-width: 894px){
     
@@ -25,24 +14,17 @@
     overflow-x: hidden;
 } 
 
-.menu-icon {
-    display: flex;
-    
-    
-}
-
 .menu-icon img {
     display: block;
     cursor: pointer;
     z-index: 10;
     position: fixed;
     margin-left: 16%;
-
 }
 
 .navList {
     position: fixed;
-    top: 8.5%;
+    top: 7%;
     right: 0;
     width: 30%;
     height: 32%;
@@ -54,8 +36,7 @@
     transition: transform 0.6s ease-in;
     font-weight: bold;
     font-size: 1.2em;
-    background-color: rgba(7, 7, 7, 0.74);
-    
+    background-color: rgba(0, 0, 0, 0.856);
 }
 
 .navList.open {
@@ -64,11 +45,13 @@
 
 .navList li {
     margin: 8px 0; 
+    background-color: rgba(207, 192, 192, 0);   
 }
 
 .navList li a {
-    background-color: rgba(7, 7, 7, 0.74);;
+    background-color: rgba(7, 7, 7, 0.74);
 }
+
 
 .redesSociais {
     justify-content: center;          
@@ -92,8 +75,7 @@
 
 .sobre p {
     text-align: justify;
-    padding: 0 5% 3%;
-    
+    padding: 0 5% 3%;  
 }
 
 .containerHabilidades {
@@ -107,12 +89,12 @@
 }
 
 @media screen and (max-width: 947px){
-    .containerMaster {
-        display: flex;
-        justify-content: center;
-    }
+.containerMaster {
+    display: flex;
+    justify-content: center;
+}
 
-    .redesSociais2 {
-        padding: 2px;
-    }
+.redesSociais2 {
+    padding: 2px;
+}
 }
