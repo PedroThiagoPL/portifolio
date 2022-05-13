@@ -21,7 +21,7 @@ html {
     flex: 30%;
     justify-content: center;
     color: #05d4df;
-    padding: 2%;
+    padding: 3%;
     font-family: 'Inter', sans-serif;
     font-size: 25px;    
     font-weight: bold;
@@ -57,6 +57,12 @@ html {
 .menu nav a {
     text-decoration: none;
     color: white;
+}
+
+.navList {
+    margin-top: 13px;
+    margin-left: 150px;
+    font-weight: bold;
 }
 
 .containerHome {
@@ -200,7 +206,7 @@ html {
 
 .containerHabilidades {
     width: 100%; 
-     
+     text-align: center;
 }
 
 .containerHabilidades h1 {

@@ -1,27 +1,47 @@
-@media screen and (max-width: 893px){
+@media screen and (min-width: 894px){
+.menu-icon {
+    display: none;
+       
+}
+   
+.menu-icon img {
+    display: hidden;
+}
+
+
+ .containerHabilidades {
+    align-items: center;
+    justify-content: center;
+}   
+}
+
+@media screen and (max-width: 894px){
     
 .body {
     overflow-x: hidden;
 } 
 
 .menu-icon {
-    margin-left: 460%;
+    display: flex;
+    
+    
 }
 
 .menu-icon img {
     display: block;
     cursor: pointer;
-    background-color: white;
     z-index: 10;
-    
+    position: fixed;
+    margin-left: 16%;
+
 }
 
 .navList {
     position: fixed;
-    top: 10%;
+    top: 8.5%;
     right: 0;
-    width: 18%;
-    height: 30%;
+    width: 30%;
+    height: 32%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,6 +50,7 @@
     transition: transform 0.6s ease-in;
     font-weight: bold;
     font-size: 1.2em;
+    background-color: rgba(7, 7, 7, 0.74);
     
 }
 
@@ -38,7 +59,11 @@
 }
 
 .navList li {
-    margin: 10px 0;
+    margin: 8px 0; 
+}
+
+.navList li a {
+    background-color: rgba(7, 7, 7, 0.74);;
 }
 
 .redesSociais {
@@ -46,8 +71,8 @@
 }
 
 .containerHome {
-        display: block;
-        text-align: center;
+    display: block;
+    text-align: center;
 }
 
 .containerSobreMim {
@@ -57,7 +82,7 @@
 }
 
 .sobre {
-    padding: 10px;
+    padding: 30px;
     text-align: center;
 }
 
@@ -75,5 +100,14 @@
 .containerMaster {
     justify-content: center;
 }
-
 }
+
+@media screen and (max-width: 947px){
+    .containerMaster {
+        display: flex;
+        justify-content: center;
+    }
+
+    .redesSociais2 {
+        padding: 2px;
+    }
