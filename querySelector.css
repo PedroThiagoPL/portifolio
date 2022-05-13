@@ -1,4 +1,4 @@
-@media screen and (min-width: 894px){
+@media screen and (min-width: 895px){
 .menu-icon {
     display: none;
        
@@ -12,8 +12,11 @@
  .containerHabilidades {
     align-items: center;
     justify-content: center;
-}   
+}  
+
+
 }
+
 
 @media screen and (max-width: 894px){
     
@@ -111,3 +114,4 @@
     .redesSociais2 {
         padding: 2px;
     }
+}

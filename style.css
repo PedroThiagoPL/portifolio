@@ -219,7 +219,8 @@ html {
 
 .containerMaster {
     display: flex;
-    flex-wrap: wrap;
+    
+    
 }
 
 .habilidades {
@@ -263,7 +264,7 @@ html {
 .projetos {
     border: 1px solid black;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
     font-size: 1.0em;  
