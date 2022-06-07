@@ -301,23 +301,28 @@ html {
     padding: 15px;
 }
 
-.imageLanding {    
+.imageProjetos {    
     display: block;
     width: 100%;
     height: 340px; 
 }
 
-.textoLanding {
+#iconBootstrap {
+    height: 100px;
+    width: 110px;
+}
+
+.textoProjetos {
     position: absolute;
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.795);
+    background-color: rgba(0, 0, 0, 0.842);
     opacity: 0;
     transition: opacity 0.25s;
 }
 
-.textoLanding:hover {
+.textoProjetos:hover {
     opacity: 1;
 }
 
