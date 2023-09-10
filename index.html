@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="img/logo-azul-sem-fundo.png" type="image/x-icon">
+    <title>Pedro Thiago</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                Portifólio
+            </div>
+
+            <div class="menu">
+                <nav>
+                    <button class="btn-nav"><a href="#home">Home</a></button>
+                    <button class="btn-nav"><a href="#about">About Me</a></button>
+                    <button class="btn-nav"><a href="#skills">Skills</a></button>
+                    <button class="btn-nav"><a href="#projects">Projects</a></button>
+                    <button class="btn-nav"><a href="#contacts">Contacts</a></button>
+                </nav>
+            </div>
+
+            <button onclick="animarMenu()" id="btn-menu">
+                <span class="linha"></span>
+                <span class="linha"></span>
+                <span class="linha"></span>
+            </button>
+
+            <div class="menu-mobile">
+                <nav>
+                    <a href="#home">Home</a>
+                    <a href="#about">About Me</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contacts">Contacts</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="text-animate">
+            <span class="text first-text">Hi, i'm</span>
+            <span id="text-name"></span>
+            <span class="first-text">Web Developer</span>
+        </div>
+        <div class="img-home">
+            <img src="img/mascote.png" alt="Mascote">
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>about me</h2>
+        <div class="container-about">
+            <div class="img-about">
+                <img src="img/03.png" alt="Pedro Thiago">
+            </div>
+            <div class="description-about">
+                <p>I am a front-end developer passionate about what I do. I often say that "who does what he likes lives
+                    on
+                    vacation". That's why I'm always wanting to learn something new that will help me be a better and
+                    better
+                    developer. I have a solid experience mastering technologies such as HTML, CSS, JavaScript, ReactJS,
+                    TypeScript, among others. I am always looking for new challenges, and my thirst for learning drives
+                    me
+                    to create functional and aesthetically pleasing digital experiences. My curiosity and
+                    results-oriented
+                    approach make me stand out in the relentless pursuit of creative and innovative solutions. I am
+                    ready to
+                    tackle any project and contribute to the team's success.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="container-card">
+            <div class="card">
+                <div class="card2">
+                    <img src="img/html.png" alt="HTML">
+                    <p>HTML 5</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card2">
+                    <img src="img/CSS.png" alt="CSS">
+                    <p>CSS 3</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card2">
+                    <img src="img/javascript.png" alt="JS">
+                    <p>JavaScript</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card2">
+                    <img src="img/react.png" alt="React">
+                    <p>React</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card2">
+                    <img src="img/typescript.png" alt="TypeScript">
+                    <p>Typescript</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card2">
+                    <img src="img/bootstrap-5.png" alt="Bootstrap 5">
+                    <p>Bootstrap 5</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card2">
+                    <img src="img/wordpress.png" alt="Wordpress">
+                    <p>Wordpress</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card2">
+                    <img src="img/git.png" alt="Git">
+                    <p>Git</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card2">
+                    <img src="img/githubLogo.png" alt="GitHub">
+                    <p>GitHub</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card2">
+                    <img src="img/figma.png" alt="Figma">
+                    <p>Figma</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card2">
+                    <img src="img/PhotoshopCS.png" alt="Photoshop CS">
+                    <p>Photoshop CS</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card2">
+                    <img src="img/illustrator.png" alt="Illustrator">
+                    <p>Illustrator</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="card-projects">
+            <div class="myCard">
+                <div class="innerCard">
+                    <div class="frontSide">
+                        <img src="img/formulario.png" alt="">
+                    </div>
+                    <div class="backSide">
+                        <p>Formulário Multistep</p>
+                        <p>Criação de formulário responsivo em React com o objetivo de avaliação da compra de um produto
+                            pelo comprador. Nesse projeto foram feitas a componetização de cada página, além do uso dos
+                            hooks, useState e useForm.</p>
+                        <div>
+                            <button class="btn-card"> <a href="https://formulario-multistep00.netlify.app/"
+                                    target="blank">site</a>
+                            </button>
+                            <button class="btn-card"><a href="https://github.com/PedroThiagoPL/formulario-multistep"
+                                    target="blank">Repository</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="myCard">
+                <div class="innerCard">
+                    <div class="frontSide">
+                        <img src="img/tela-de-login.png" alt="">
+                    </div>
+                    <div class="backSide">
+                        <p>Login screen</p>
+                        <p>Creation of a registration and login screen in HTML, CSS, and JavaScript. In this project,
+                            authentication for login was implemented using LocalStorage, click events for the
+                            registration and login buttons were set up, and if and else statements were used to confirm
+                            the entered characters and display error messages.p>
+                            <div>
+                                <button class="btn-card"> <a href="https://tela-de-login-92.netlify.app/"
+                                        target="blank">site</a>
+                                </button>
+                                <button class="btn-card"><a href="https://github.com/PedroThiagoPL/tela-de-login"
+                                        target="blank">Repository</a></button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <div class="myCard">
+                <div class="innerCard">
+                    <div class="frontSide">
+                        <img src="img/jogo-do-mario.png" alt="">
+                    </div>
+                    <div class="backSide">
+                        <p>Mario game</p>
+                        <p>Creation of a registration and login screen in HTML, CSS, and JavaScript. In this project,
+                            authentication for login was implemented using LocalStorage, click events for the
+                            registration and login buttons were set up, and if and else statements were used for
+                            confirming entered characters and displaying error messages.</p>
+                        <div>
+                            <button class="btn-card"> <a href="https://super-mario92.netlify.app/"
+                                    target="blank">site</a>
+                            </button>
+                            <button class="btn-card"><a href="https://github.com/PedroThiagoPL/jogo-do-mario"
+                                    target="blank">Repository</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="myCard">
+                <div class="innerCard">
+                    <div class="frontSide">
+                        <img src="img/conversor-de-moedas.png" alt="Conversor de Moedas">
+                    </div>
+                    <div class="backSide">
+                        <p>Currency converter</p>
+                        <p>Creation of a responsive currency converter in HTML, CSS, and JavaScript. In this project,
+                            currency swapping and calculation of conversion values were performed using if and else
+                            statements, DOM manipulation in JavaScript, and a click event on the convert button.</p>
+                        <div>
+                            <button class="btn-card"> <a href="https://conversor-de-moedas0407.netlify.app/"
+                                    target="blank">site</a>
+                            </button>
+                            <button class="btn-card"><a href="https://github.com/PedroThiagoPL/conversor-de-moedas"
+                                    target="blank">repository</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="myCard">
+                <div class="innerCard">
+                    <div class="frontSide">
+                        <img src="img/Kratos.PNG" alt="Portifólio do Kratos">
+                    </div>
+                    <div class="backSide">
+                        <p>Kratos Portfolio</p>
+                        <p>Kratos asked me to create this portfolio for him. I built this portfolio using HTML, CSS, and
+                            JavaScript. In the JavaScript part, I employed arrow functions and click events to ensure
+                            the responsiveness of the menu.</p>
+                        <div>
+                            <button class="btn-card"> <a href="https://portifolio-kratos.netlify.app/"
+                                    target="blank">site</a>
+                            </button>
+                            <button class="btn-card"><a href="https://github.com/PedroThiagoPL/portifolio-do-Kratos"
+                                    target="blank">repository</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="myCard">
+                <div class="innerCard">
+                    <div class="frontSide">
+                        <img src="img/trocador-de-cores.png" alt="Trocador de Cores">
+                    </div>
+                    <div class="backSide">
+                        <p>Color Changer with Button</p>
+                        <p>The "Color Changer with Button in JavaScript" project is a simple and interactive web
+                            application that allows users to change the color of a specific element on the page by
+                            pressing a button.</p>
+                        <div>
+                            <button class="btn-card"> <a href="https://trocador-de-cores.netlify.app/"
+                                    target="blank">site</a>
+                            </button>
+                            <button class="btn-card"><a href="https://github.com/PedroThiagoPL/trocador-de-cores"
+                                    target="blank">repository</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="myCard">
+                <div class="innerCard">
+                    <div class="frontSide">
+                        <img src="img/veterinario.png" alt="Veterinário">
+                    </div>
+                    <div class="backSide">
+                        <p>Veterinarian Website</p>
+                        <p>The project involves the creation of a modern and functional website for a veterinary clinic
+                            using the latest version of the Bootstrap framework - Bootstrap 5. The main objective is to
+                            develop an online platform that not only conveys professionalism and trust but also provides
+                            pet owners with a pleasant and informative experience.</p>
+                        <div>
+                            <button class="btn-card"> <a href="https://veterinaria-doguinhos.netlify.app/"
+                                    target="blank">site</a>
+                            </button>
+                            <button class="btn-card"><a href="https://github.com/PedroThiagoPL/doguinhos"
+                                    target="blank">repository</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contacts">
+        <h2>Contacts</h2>
+        <div class="andress">
+            <div class="location">
+                <i class="fa-solid fa-location-dot"></i>
+                <p class="title-location">Location</p>
+                <p class="text-andress">Setúbal - Portugal</p>
+            </div>
+            <div class="location">
+                <i class="fa-regular fa-envelope"></i>
+                <p class="title-location">E-mail</p>
+                <a class="link-location" href="mailto:pedrothiagopl@yahoo.com">pedrothiagopl@yahoo.com</a>
+            </div>
+            <div class="location">
+                <a href=""><i class="fa-solid fa-file-arrow-down"></i></a>
+                <a class="link-curriculo" href="#">Curriculum</a>
+            </div>
+        </div>
+        <div class="social-links">
+            <a class="social" href="https://github.com/pedrothiagopl" target="_blank">
+                <div id="github" class="social-btn flex-center">
+                    <i class="fa-brands fa-github"></i>
+                    <span>/pedrothiagopl</span>
+                </div>
+            </a>
+
+            <a class="social" href="https://www.linkedin.com/in/pedrothiagopl/" target="_blank">
+                <div id="linkedin" class="social-btn flex-center">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                    <span>in/pedrothiagopl</span>
+                </div>
+            </a>
+
+            <a class="social" href="https://www.instagram.com/pedrothiagodev/" target="_blank">
+                <div id="instagram" class="social-btn flex-center">
+                    <i class="fa-brands fa-instagram"></i>
+                    <span>@pedrothiagodev</span>
+                </div>
+            </a>
+
+            <a class="social" href="https://api.whatsapp.com/send?phone=351963140875&" target="_blank">
+                <div id="whatsapp" class="social-btn flex-center">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <span>(+351) 963 140 875</span>
+                </div>
+            </a>
+        </div>
+        <div class="direitos">
+            <p>© All Rights Reserved - Pedro Thiago 
+            </p>
+            <p>Design & Development Pedro Thiago</p>
+        </div>
+    </section>
+
+    <script src="https://kit.fontawesome.com/83d7fc289d.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
