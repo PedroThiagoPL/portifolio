@@ -682,4 +682,12 @@ h2 {
     .description-about {
         padding: 30px;
     }
+
+    .img-home {
+      padding-right: 0;
+    }
+
+    .img-home img {
+      width: 400px;
+    }
 }
