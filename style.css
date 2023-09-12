@@ -218,6 +218,7 @@ button.ativar .linha:nth-child(2) {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .img-about {
@@ -666,6 +667,14 @@ h2 {
 
     .description-about {
         padding-top: 50px;
+    }
+
+    .title-location {
+      font-size: 1rem;
+    }
+
+    .text-andress {
+      font-size: 0.8rem;
     }
 }
 
