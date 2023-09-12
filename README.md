@@ -5,10 +5,13 @@
 
 <h2>Demonstração</h2>
 
-
 https://github.com/PedroThiagoPL/portifolio/assets/101016340/0a0d2a4b-1e43-411c-a753-6747d928c49b
 
 <br>
+
+<h2>Site</h2>
+
+<p>https://pedrothiagopl.netlify.app/</p>
 
 <h2>Passo a Passo</h2>
 
