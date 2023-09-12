@@ -8,6 +8,7 @@
 body {
     background-color: #000;
     width: 100vw;
+    overflow-x: hidden;
 }
 
 header {
@@ -24,10 +25,14 @@ header {
 }
 
 .logo {
-    width: 25%;
-    color: #23CDF8;
+    width: 25%;    
     font-size: 2rem;
     font-weight: 900;
+}
+
+.logo a {
+  color: #23CDF8;
+  text-decoration: none;
 }
 
 .logo img {
@@ -35,7 +40,7 @@ header {
 }
 
 .menu {
-    width: 60%;
+    width: 70%;
     display: flex;
     justify-content: right;
     align-items: center;
@@ -43,7 +48,7 @@ header {
 
 .menu nav {
     display: flex;
-    gap: 3rem;
+    gap: 2rem;
 }
 
 .btn-nav {
@@ -218,7 +223,6 @@ button.ativar .linha:nth-child(2) {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
 }
 
 .img-about {
@@ -229,8 +233,7 @@ button.ativar .linha:nth-child(2) {
 
 .description-about {
     color: #00C9F3;
-    padding-right: 100px;
-    padding-left: 100px;
+    padding: 0 50px;
     text-align: justify;
 }
 
@@ -637,6 +640,7 @@ h2 {
     font-size: 0.8rem;
     text-align: center;
     padding-top: 100px;
+    margin-bottom: 10px;
 }
 
 @media (max-width:1125px) {
@@ -663,6 +667,10 @@ h2 {
 @media (max-width:768px) {
     .img-home img {
         width: 500px;
+    }
+
+    .container-about {      
+    flex-wrap: wrap;
     }
 
     .description-about {
